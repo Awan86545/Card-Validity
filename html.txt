@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Validity Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Card Validity Checker</h1>
+    <div class="card-info">
+      <label for="card-number">Enter Card Number:</label>
+      <input type="text" id="card-number" placeholder="Enter your card number">
+      <button onclick="checkCardValidity()">Check Validity</button>
+    </div>
+    <div class="result">
+      <p id="result-message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
